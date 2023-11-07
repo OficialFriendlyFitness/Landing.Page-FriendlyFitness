@@ -1,0 +1,60 @@
+/* IMAGEN */
+.image-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 5);
+	/* Fondo semitransparente */
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	color: white;
+	padding-left: 30px;
+  font-family: 'Reboto Moto', monospace;
+  padding-top: 200px;
+}
+
+.content h2 {
+	color: white;
+	font-size: 70px;
+  font-family: Inter, sans-serif;
+	font-weight: 700;
+	line-height: 25px;
+	word-wrap: break-word
+}
+
+.content p {
+	color: white;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 25px;
+	word-wrap: break-word
+}
+
+.but {
+	background-color: #545454;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
