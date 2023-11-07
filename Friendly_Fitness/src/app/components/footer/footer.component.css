@@ -1,0 +1,26 @@
+.bg-dark {
+	background-color: #092c4c;
+}
+
+.col {
+	color: white;
+	text-decoration: underline;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: flex-end;
+	/* Alinea los íconos hacia el extremo derecho del contenedor */
+	width: 100%;
+	/* Opcional: para que los íconos ocupen todo el ancho del contenedor */
+}
+
+.icon-container svg {
+	margin-left: 10px;
+	/* Espacio entre los íconos, ajusta según tus preferencias */
+}
+
+.sin_under{
+	color: white;
+	text-decoration: none;
+}
